@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", san_serif;
+	box-sizing: border-box;
+}
+
+
+
+
+table{
+    background:black;
+    border-collapse: collapse;
+    width: 80%;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 5%;
+}
+
+caption{
+    font-size: 30px;
+    /* color: #800000; */
+    font-weight: 700;
+    padding: 10px;
+}
+
+th{
+    background:orangered;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th, td{
+    padding: 12px 15px;
+}
+
+tr{
+    border-bottom: 2px solid #dddddd;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+/* tr:nth-last-of-type(even){
+    background-color: #f3f3f3;
+} */
+
+tr:last-of-type{
+    /* border-bottom: 10px solid #800000; */
+}
+
+tr:hover{
+    /* background-color: azure; */
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+@media only screen and (max-width: 180px){
+	header{
+		width: 100%;
+		height: 100%;
+	}
+    
+}
+
+
+@media only screen and (max-width: 1080px){
+	header{
+		width: 100%;
+		height: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.line3{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    

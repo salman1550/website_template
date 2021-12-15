@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>ContactUs</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo"><a href="#"><img src="./images/logo.png" alt="SharpKnives" class="logo"></a></div>
+    
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+                <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li>
+                        <!-- First Tier Drop Down -->
+                        <label for="drop-1" class="toggle">Report +</label>
+                        <a href="#">Report</a>
+                        <input type="checkbox" id="drop-1"/>
+                        <ul>
+                          <li><a href="./Report1.html">Report1</a></li>
+                          <li><a href="./Report2.html">Report2</a></li>
+                          <li><a href="./Report3.html">Report3</a></li>
+                          <li><a href="./Report4.html">Report4</a></li>
+                        </ul> 
+    
+                    </li>
+                   
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./ourteam.html">Our Team</a></li>
+                    <li><a href="./Special.html">Specials</a></li>
+                    <li><a href="./Training.html">Training</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <h1>Contact Us</h1>
+    <p>Want to get in touch? Bedew'd love to hear from you. Here's how you can reach us.</p>
+
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Address (optional)" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+
+      <footer>
+        <p>&copy;Copyright 2099. All Rights Reserved.<br></p>
+        <p><a href="mailto:info@your_company_name.com">Request information</a><br></p>
+        <p>Mir Fiaz Ali Khan</p>
+    </footer>
+    
+</body>
+</html>
+

@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", san_serif;
+	box-sizing: border-box;
+}
+
+
+.report2{
+	/* background: linear-gradient(#d1d1d1, #635b2a); */
+    background: rgb(41, 39, 39);
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.report2 h1, h2{
+	text-align: center;
+	/* color: #800000; */
+	padding-top: 10px;
+}
+
+
+.web {
+  padding-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-style: solid; */
+  /* border-color: #A8212D; */
+  border-width: 0px 0px 16px 0px;
+}
+
+table, th, tr, td {
+  border: 1px solid #A8212D;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #E8E8E8;
+  color: #A8212D;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+/* 
+tr:nth-child(even) {background: #f2f2f2;}
+
+tr:nth-child(odd) {background: red;} */
+
+
+
+
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+
+@media only screen and (max-width: 1080px){
+	header{
+		width: 100%;
+	}
+}

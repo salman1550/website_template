@@ -1,0 +1,156 @@
+
+.aboutus{
+    display: block;
+    width: 100%;
+    /* background: linear-gradient(#d1d1d1, #635b2a); */
+  }
+  
+  .aboutus .head{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    /* background: transparent; */
+    padding: 20px;
+  }
+  
+  .aboutus .head h1{
+    /* color: black; */
+    font-size: 30px;
+  }
+  
+  .aboutus .head p{
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  .info img{
+    width: 100%;
+    height: 40%;
+    border: 5px ;
+  border-radius: 25px; 
+    /* box-shadow: 10px 10px 5px #635b2a; */
+  transition: 0.5s all;
+  }
+  
+  .info img:hover{
+  width: 102%;
+    height: 41%;
+  }
+  
+  .info{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  
+  .article1{
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .article3{
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .article2{
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .info p{
+    text-align: center;
+    font-weight: 525;
+  }
+  
+  .info h2{
+    text-align: center;
+    /* color: #800000; */
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .info ol{
+    font-weight: 525; 
+    padding-left: 55px;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 180px){
+  header{
+    width: 100%;
+  }
+  }
+  
+  
+  @media only screen and (max-width: 570px){
+  .logo{
+        width: 150px;
+    }
+  
+    .logo:hover{
+        width: 170px;
+    }
+  header{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar li{
+        display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    text-align: center;
+    }
+  .navbar li a{
+        padding: 5px 100px;
+    }
+  .navbar li ul{
+    margin-top: 25px;
+  }
+  .navbar li ul li a{
+    text-align: center;
+    width: 200px;
+    padding: 5px 10px;
+  }
+  
+  
+  @media only screen and (max-width: 780px){
+  header{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar li{
+        display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    text-align: center;
+    }
+  .navbar li a{
+        padding: 5px 100px;
+    }
+  .navbar li ul{
+    margin-top: 25px;
+  }
+  .navbar li ul li a{
+    text-align: center;
+    width: 200px;
+    padding: 5px 10px;
+  }
+  .info{
+        flex-direction: column;
+    }
+    
+    .aboutus .head p{
+        padding-bottom: 20px;
+    }
+  
+  
+  
